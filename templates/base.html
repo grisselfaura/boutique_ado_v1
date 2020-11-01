@@ -85,9 +85,9 @@
                             {% endif %}
                         </div>
                     </li>
-                    <!-- shopping bag with link anchor element with the fontnawsome element and total amount-->
+                    <!-- shopping bag with link anchor element with the fontawsome element and total amount-->
                     <li class="list-inline-item">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
+                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
                             <div class="text-center">
                                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                                 <p class="my-0"> <!-- check if grantd total exist and if it does display the tottal formatted to two decimal places -->
